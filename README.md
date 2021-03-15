@@ -1,4 +1,4 @@
-# DotNet 5 gRPC Integration Tests
+# DotNet Core gRPC Integration Tests
 This project was created to demonstrate advanced implementation of .NET Core gRPC services including integration tests.
 
 # Getting started
