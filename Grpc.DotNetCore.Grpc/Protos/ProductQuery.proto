@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+option csharp_namespace = "Grpc.DotNetCore.Grpc.Protos";
+
+service ProductQueryGrpcService{
+	rpc GetProduct(ProductQueryRequest) returns(ProductQueryResponse);
+}
+
+message ProductQueryRequest{
+	string id = 1;
+}
+
+message ProductQueryResponse {
+	string name = 1;
+	string label = 2;
+}

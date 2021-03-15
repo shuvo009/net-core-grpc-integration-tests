@@ -11,4 +11,10 @@
   		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
   	</PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Grpc.DotNetCore.Common\Grpc.DotNetCore.Common.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<Protobuf Include="Protos\ProductQuery.proto" GrpcServices="Server" />
+	</ItemGroup>
 </Project>
