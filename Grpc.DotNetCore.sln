@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.DotNetCore", ".\Grpc.DotNetCore\Grpc.DotNetCore.csproj", "{2FDA6BF4-8632-4313-91CA-FB7249718992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.DotNetCore", "Grpc.DotNetCore\Grpc.DotNetCore.csproj", "{2FDA6BF4-8632-4313-91CA-FB7249718992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.DotNetCore.Grpc", ".\Grpc.DotNetCore.Grpc\Grpc.DotNetCore.Grpc.csproj", "{561AE119-4E69-4D26-BF2E-475FA4A1E840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.DotNetCore.Grpc", "Grpc.DotNetCore.Grpc\Grpc.DotNetCore.Grpc.csproj", "{561AE119-4E69-4D26-BF2E-475FA4A1E840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.DotNetCore.Repository", ".\Grpc.DotNetCore.Repository\Grpc.DotNetCore.Repository.csproj", "{6029125E-CEF5-4071-AAAF-10A100B95601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.DotNetCore.Repository", "Grpc.DotNetCore.Repository\Grpc.DotNetCore.Repository.csproj", "{6029125E-CEF5-4071-AAAF-10A100B95601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.DotNetCore.Common", ".\Grpc.DotNetCore.Common\Grpc.DotNetCore.Common.csproj", "{A033E56B-55E5-46A3-8C0C-12EECDB130B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grpc.DotNetCore.Common", "Grpc.DotNetCore.Common\Grpc.DotNetCore.Common.csproj", "{A033E56B-55E5-46A3-8C0C-12EECDB130B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{84B4F1B5-24B9-49B7-935D-A22E2D7DC12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpc.DotNetCore.IntegrationTest", "Grpc.DotNetCore.IntegrationTest\Grpc.DotNetCore.IntegrationTest.csproj", "{5347F041-F89B-4E3C-89AF-A63D20F52C76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{A033E56B-55E5-46A3-8C0C-12EECDB130B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A033E56B-55E5-46A3-8C0C-12EECDB130B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A033E56B-55E5-46A3-8C0C-12EECDB130B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5347F041-F89B-4E3C-89AF-A63D20F52C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5347F041-F89B-4E3C-89AF-A63D20F52C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5347F041-F89B-4E3C-89AF-A63D20F52C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5347F041-F89B-4E3C-89AF-A63D20F52C76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5347F041-F89B-4E3C-89AF-A63D20F52C76} = {84B4F1B5-24B9-49B7-935D-A22E2D7DC12D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72DCE7F1-5892-4C34-87F8-5196C15F9820}
